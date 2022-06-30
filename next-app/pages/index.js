@@ -43,6 +43,7 @@ export default function Home() {
       setLoading(false);
       window.alert("You successfully minted a Crypto Dev!");
     } catch (err) {
+      window.alert("Could not mint, please check your wallet balance");
       console.error(err);
     }
   };
@@ -69,6 +70,7 @@ export default function Home() {
       setLoading(false);
       window.alert("You successfully minted a Crypto Dev!");
     } catch (err) {
+      window.alert("Could not mint, please check your wallet balance");
       console.error(err);
     }
   };
